@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  
+    <link href="booking.css" rel="stylesheet">
+    <link rel="stylesheet" href="aboutus.css">
+
+    <title>Service booking</title>
+    
+    
+  </head>
+  <body>
+    
+    <h3 class="head">Online Service Booking Form </h3>
+    <fieldset>
+      <legend class="sub">Vehicle details</legend>
+    <form name="myform">
+        
+
+        <label >Vehicle model:</label>  <input type="text" name="model"><br><br>
+        <label >  Vehicle No:</label> <input type="text" name="no" ><br><br>
+        <label>  Manufactured Year:</label> 
+        <select name="year">
+          <option >2015</option>
+          <option >2016</option>
+          <option>2017</option>
+          <option >2018</option>
+          <option>2019</option>
+          <option>2020</option>
+          <option>2021</option>
+          <option>2022</option>
+        </select><br><br>
+        <label>Preferred Branch:</label>
+        <input type="radio" checked> Jaffna
+        <input type="radio" >Colombo
+        <input type="radio">Rathnapura
+        <input type="radio">Anuradhhapura
+        <br><br>
+
+        <label> Preferred Date & Time:</label> <input type="date"><input type="time"><br><br>
+        <label> Message</label> <input type="textarea" name="" id="" class="box"><br>
+      </fieldset>
+      <br>
+      
+      <fieldset>
+        <legend class="sub">Owner details</legend>
+        
+       
+
+        <label >Name: </label><input type="text" id="name"><br><br>
+       <label for="mail" >Email:</label> <input type="email" name="email"><span id="message" class="alert"></span>
+       <br><br>
+        <label for="mobile">Phone Number:</label> <input type="text" name="mobile " id="mobile"><span id="num" class="alert"></span>
+        <br><br>
+        <label class="lab"></label> <input type="button" value="Submit" onclick="myfun()"><input type="button" value="Reset" onclick="reset()">
+<br>
+    </form>
+  </fieldset>
+  <br>
+    
+    
+    <a href="Aboutus.html">Back</a><br><br>
+
+
+    <div class="footer">
+        <h4>Copyright2022 &copy; ROBIN MOTORS(PVT)LTD</h4>
+      </div>
+    
+      
+      <script src="home.js" ></script>
+    </body>
+  </html>
+  

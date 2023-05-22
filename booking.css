@@ -1,0 +1,33 @@
+.head{
+    text-align: center;
+    color: rgb(31, 31, 140);
+}
+.sub{
+    color: blue;
+}
+.footer{
+    clear: both;
+    background-color: rgb(37, 37, 36);
+    color: aliceblue;
+    border-radius: 10px;
+    text-align: center;
+    height: 40px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+.form{
+    display: inline-block;
+}
+.box{
+    height: 80px;
+}
+label{
+    width: 150px;
+    display: inline-block;
+  }
+  .lab{
+    width: 210px;
+  }
+  .alert{
+    color: red;
+  }

@@ -1,0 +1,22 @@
+.table1{
+    border:1px solid black;
+    width: 1500px;
+}
+.wholetable{
+    padding: 10px 10px 10px 10px;
+}
+.headtable{
+    background-color: rgb(102, 61, 8);
+    color: azure;
+    height: 40px;
+}
+.bodytable1{
+    background-color: rgb(207, 205, 202);
+}
+.bodytable1:hover{
+    color: darkblue;
+}
+.bodytable2:hover{
+color: crimson;
+    
+}

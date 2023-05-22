@@ -1,0 +1,23 @@
+.img3{
+    width:800px ;
+    height:400px;
+    padding: 10px 10px 10px 300px;
+}
+.box1{
+    height: 70px;
+}
+.table3{
+    width: 1500px;
+}
+.textbox{
+    background-color: rgb(124, 242, 242);
+}
+.submit{
+    background-color: rgb(15, 113, 15);
+
+}
+
+.button:hover{
+    color: white;
+    
+}
